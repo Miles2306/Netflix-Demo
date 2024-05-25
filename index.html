@@ -23,12 +23,16 @@
             max-width: 800px;
             width: 100%;
             box-sizing: border-box;
+            border: 2px solid #444; /* Khung viền ngoài cùng */
+            border-radius: 10px; /* Bo tròn góc viền */
+            overflow: hidden;
         }
         header {
             padding: 20px;
             background-color: #E50914;
             text-align: center;
             width: 100%;
+            border-bottom: 2px solid #444; /* Khung viền dưới của header */
         }
         header h1 {
             margin: 0;
@@ -47,12 +51,14 @@
             flex-wrap: wrap;
             padding: 20px;
             box-sizing: border-box;
+            border-bottom: 2px solid #444; /* Khung viền dưới của phần thông tin phim */
         }
         .movie-info img {
             width: 200px;
             border-radius: 5px;
             margin-right: 20px;
             flex-shrink: 0;
+            border: 2px solid #444; /* Khung viền của hình ảnh */
         }
         .details {
             flex: 1;
@@ -69,6 +75,8 @@
         .video-player video {
             width: 100%;
             height: auto;
+            border-radius: 10px; /* Bo tròn góc viền của video */
+    
         }
         @media (max-width: 768px) {
             .movie-info {
