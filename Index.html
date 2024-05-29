@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xem Phim: Black Panther:WAKANDA FOREVER</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #131313;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .movie-container {
+            max-width: 800px;
+            width: 100%;
+            box-sizing: border-box;
+            border: 2px solid #444; /* Khung viền ngoài cùng */
+            border-radius: 10px; /* Bo tròn góc viền */
+            overflow: hidden;
+        }
+        header {
+            padding: 20px;
+            background-color: #E50914;
+            text-align: center;
+            width: 100%;
+            border-bottom: 2px solid #444; /* Khung viền dưới của header */
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 14px;
+        }
+        header img {
+            width: 100px;
+            height: auto;
+        }
+        .movie-info {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+            box-sizing: border-box;
+            border-bottom: 2px solid #444; /* Khung viền dưới của phần thông tin phim */
+        }
+        .movie-info img {
+            width: 200px;
+            border-radius: 5px;
+            margin-right: 20px;
+            flex-shrink: 0;
+            border: 2px solid #444; /* Khung viền của hình ảnh */
+        }
+        .details {
+            flex: 1;
+        }
+        .details h2 {
+            margin-top: 0;
+        }
+        .video-player {
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .video-player video {
+            width: 100%;
+            height: auto;
+            border-radius: 10px; /* Bo tròn góc viền của video */
+    
+        }
+        @media (max-width: 768px) {
+            .movie-info {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .movie-info img {
+                margin-bottom: 20px;
+                margin-right: 0;
+            }
+            .details {
+                width: 100%;
+                padding: 0 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="MANHQUAN.png" alt="Logo của trang web">
+        <h1>Chiến Binh Báo Đen: Wakanda Bất Diệt</h1>
+        <p>Năm Sản Xuất: 2022 | Thể Loại: Hành Động | Đánh Giá: 10/10</p>
+    </header>
+
+    <div class="container">
+        <div class="movie-container">
+            <div class="movie-info">
+                <img src="BlackPanther1.jpg" alt="Poster của bộ phim">
+                <div class="details">
+                    <h2>Chiến Binh Báo Đen: Wakanda Bất Diệt</h2>
+                    <p>Đạo Diễn: Ryan Coogler | Diễn Viên: Angela Bassett,Letitia Wright,Winston Duke,Danai Gurira</p>
+                    <p>Thời Lượng: 1 giờ 49 phút</p>
+                    <h2>Mô Tả</h2>
+                    <p>Nữ hoàng Ramonda (Angela Bassett), Shuri (Letitia Wright), M’Baku (Winston Duke), Okoye (Danai Gurira) và Đội quân Dora Milaje (gồm Florence Kasumba) chiến đấu để bảo vệ lãnh thổ của mình khỏi sự xâm chiếm của những cường quốc thế giới sau sự ra đi của Vua T'Challa. Để Wakanda tiếp tục sự trường tồn của mình, các Siêu Anh Hùng phải hợp tác với nhau dưới sự trợ giúp của War Dog Nakia (Lupita Nyongo) và Everett Ross (Martin Freeman) để kiến tạo một hướng đi mới cho vương quốc Wakanda. Bên cạnh Tenoch Huerta đảm nhận vai Namor, vua của Talokan,</p>
+                </div>
+            </div>
+            <div class="video-player">
+                <video controls autoplay>
+                    <source src="BlackPanther.mp4" type="video/mp4">
+                    Trình duyệt của bạn không hỗ trợ video.
+                </video>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
